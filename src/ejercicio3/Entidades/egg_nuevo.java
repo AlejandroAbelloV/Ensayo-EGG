@@ -11,4 +11,13 @@ package ejercicio3.Entidades;
  */
 public class egg_nuevo {
     
+     java.util.Scanner leer;
+    private final int numero3;
+    private final int numero4;
+
+    public egg_nuevo(int numero3, int numero4) {
+        this.leer = new java.util.Scanner(System.in);
+        this.numero3 = numero3;
+        this.numero4 = numero4;
+    }
 }
